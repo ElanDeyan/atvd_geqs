@@ -1,0 +1,33 @@
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    padding: .5em;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+
+.loginForm > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .25rem;
+}
+
+.submitBtn {
+    appearance: none;
+    background-color: rgb(0, 107, 247);
+    color: white;
+    padding: .25em;
+    border-radius: 2px;
+    border: 1px solid rgb(0, 107, 247);
+}
+
+.forgotPwd {
+    text-decoration: underline;
+    color: blue;
+    font-size: small;
+}
